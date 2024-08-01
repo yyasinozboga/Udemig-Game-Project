@@ -1,0 +1,172 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .res-menu-btn {
+    display: block;
+  }
+
+  .res-menu.active {
+    display: block;
+  }
+
+  .header .btn {
+    display: none;
+  }
+
+  .navbar div {
+    gap: 20px;
+  }
+
+  .seperator .container {
+    grid-template-columns: 0.9fr 4fr;
+  }
+
+  .suggestions-games .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .recent-games {
+    height: 100%;
+    padding: 50px 0;
+  }
+
+  .recent-games .container {
+    grid-template-columns: 1fr;
+  }
+
+  .recent-games .card {
+    height: 300px;
+  }
+
+  .recent-games .card div {
+    gap: 5px;
+  }
+
+  .premium-games {
+    height: 80vh;
+  }
+
+  .premium-games .container {
+    grid-template-columns: 1fr;
+  }
+
+  .premium-games .box-details {
+    justify-content: start;
+  }
+
+  .recent-reviews .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .recent-reviews .info {
+    font-size: 20px;
+  }
+
+  .latest-games {
+    height: 100%;
+    padding: 50px 0 0;
+  }
+
+  .latest-games .container {
+    grid-template-columns: 1fr;
+  }
+
+  .latest-games .col:nth-of-type(1) {
+    display: none;
+  }
+
+  .latest-games .col div {
+    justify-content: start;
+  }
+
+  .latest-games .col {
+    padding: 20px !important;
+  }
+
+  .latest-games .col:nth-of-type(2) .box-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .footer .container {
+    justify-content: center;
+  }
+
+  .footer .links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .home p {
+    width: 100%;
+  }
+
+  .seperator {
+    display: none;
+  }
+
+  .suggestions-games .container {
+    grid-template-columns: 1fr;
+  }
+
+  .recent-games .card {
+    height: 360px;
+  }
+
+  .premium-games {
+    height: 100%;
+    padding: 50px 0;
+  }
+
+  .premium-games .box {
+    padding: 20px;
+  }
+
+  .premium-games .box-details {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .premium-games .box-details div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .premium-games .box-img {
+    width: 100%;
+  }
+
+  .premium-games span.text-warning {
+    flex-direction: column;
+  }
+
+  .premium-games .info {
+    display: none;
+  }
+
+  .recent-reviews .container {
+    grid-template-columns: 1fr;
+  }
+
+  .latest-games .col:nth-of-type(2) .box-img {
+    width: 150px !important;
+    height: 110px !important;
+  }
+
+  .footer .container {
+    text-align: center;
+  }
+}
