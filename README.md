@@ -1,6 +1,8 @@
-# Game
+# Udemig Game Project
 
-This project created by Yaisn Özboğa
+This project was created by Yasin Özboğa
+This project was created by used HTML5, CSS3 and JavaScript.
+
 
 ## Used Techs
 
